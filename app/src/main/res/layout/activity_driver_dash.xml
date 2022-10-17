@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".driverDash">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#8BC34A"
+        android:padding="15dp"
+        android:text="Welcome cleaning master , you are our most valuable part of the project .Thanks for your hard work"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#FACDCA"
+        android:padding="15dp"
+        android:text="Given below are bin id's , please work on those bin id's only whom you have been directed by admin"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textStyle="bold"
+        android:layout_marginBottom="45dp"
+        />
+    <ListView
+        android:id="@+id/listview3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="InvalidId" />
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="source"
+        android:id="@+id/etsource"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="dest"
+        android:id="@+id/etdest"/>
+
+    <Button
+        android:id="@+id/btnshowmap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="show map"/>
+
+
+</LinearLayout>

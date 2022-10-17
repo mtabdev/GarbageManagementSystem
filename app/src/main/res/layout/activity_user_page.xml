@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3EDFF409"
+    tools:context=".userPage"
+    android:padding="10dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:text="Post Your Compalints Below"
+            android:textSize="30dp"></TextView>
+        <EditText
+            android:id="@+id/usercomplaintsName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:background="#FFFFFF"
+            android:hint="Name"></EditText>
+
+
+        <EditText
+            android:id="@+id/usercomplaintsareaname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:background="#FFFFFF"
+            android:hint="Enter Area Name"></EditText>
+
+        <EditText
+        android:id="@+id/usercomplaintsLocalityname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:background="#FFFFFF"
+        android:hint="Enter Locality Name"></EditText>
+
+        <EditText
+            android:id="@+id/usercomplaintsLandmark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:background="#FFFFFF"
+            android:hint="Landmark"></EditText>
+
+
+        <EditText
+            android:id="@+id/usercomplaintsCityname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:background="#FFFFFF"
+            android:hint="City"></EditText>
+
+        <EditText
+            android:id="@+id/usercomplaintsDetails"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:background="#FFFFFF"
+            android:hint="Please Provide Some Detailed Information "></EditText>
+
+
+        <Button
+            android:id="@+id/btnsercomplaints"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit Complaint"
+            android:textSize="20dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="45dp"></Button>
+
+        <Button
+            android:id="@+id/btnusercomplainview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="See your complaints"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:textStyle="bold"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            tools:ignore="InvalidId" />
+
+    </LinearLayout>
+
+
+
+
+
+</ScrollView>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:background="#e0e3b6"
+    tools:context=".adminHomePage">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical"
+      android:layout_marginTop="25dp"
+      >
+
+      <Button
+          android:id="@+id/CreateBin"
+          android:layout_width="match_parent"
+          android:layout_height="69dp"
+          android:layout_marginTop="25dp"
+          android:background="#03fce3"
+          android:textColor="#000000"
+          android:textStyle="bold"
+          android:layout_marginLeft="30dp"
+          android:layout_marginRight="30dp"
+
+          android:text="Create Bin" />
+
+      <Button
+          android:id="@+id/UpdateBin"
+          android:layout_width="match_parent"
+          android:layout_height="59dp"
+          android:layout_marginTop="25dp"
+          android:background="#03cefc"
+          android:textColor="#000000"
+          android:textStyle="bold"
+          android:layout_marginLeft="30dp"
+          android:layout_marginRight="30dp"
+          android:text="Update Bins" />
+
+      <Button
+          android:id="@+id/CreateDriver"
+          android:layout_width="match_parent"
+          android:layout_height="65dp"
+          android:layout_marginTop="25dp"
+          android:background="#fc0377"
+          android:textColor="#FFFFFF"
+          android:textStyle="bold"
+          android:layout_marginLeft="30dp"
+          android:layout_marginRight="30dp"
+          android:text="Create Driver" />
+
+      <Button
+          android:id="@+id/ViewReports"
+          android:layout_width="match_parent"
+          android:layout_height="64dp"
+          android:layout_marginTop="25dp"
+          android:background="#f8fc03"
+          android:textColor="#000000"
+          android:textStyle="bold"
+          android:layout_marginLeft="30dp"
+          android:layout_marginRight="30dp"
+          android:text="View Reports" />
+
+      <Button
+          android:id="@+id/publiccomplaints"
+          android:layout_width="match_parent"
+          android:layout_height="66dp"
+          android:layout_marginTop="25dp"
+          android:background="#fc1c03"
+          android:textColor="#FFFFFF"
+          android:textStyle="bold"
+
+          android:layout_marginLeft="30dp"
+          android:layout_marginRight="30dp"
+          android:text="View Public Complaints" />
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:text="Developed By Mohammad Tabish"
+    android:layout_marginTop="200dp"
+    android:layout_marginLeft="100dp"
+    >
+
+
+
+</TextView>
+</LinearLayout>
+
+</ScrollView>

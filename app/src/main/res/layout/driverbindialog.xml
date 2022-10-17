@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bin Id"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:layout_gravity="left"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="25dp"
+
+            />
+        <EditText
+            android:id="@+id/createbinid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:background="#F2EEEE	"
+
+            android:inputType="textPersonName"
+            android:text=""
+            android:textSize="30dp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Area"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:layout_gravity="left"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="25dp"
+
+            />
+
+        <EditText
+            android:id="@+id/areaNameAdmin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:background="#F2EEEE	"
+
+            android:inputType="textPersonName"
+            android:text=""
+            android:textSize="30dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Locality"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:layout_gravity="left"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="25dp"
+
+            />
+        <EditText
+            android:id="@+id/localityNameAdmin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:background="#F2EEEE	"
+
+            android:inputType="textPersonName"
+            android:text=""
+            android:textSize="30dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Landmark"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:layout_gravity="left"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="25dp"
+
+            />
+
+        <EditText
+            android:id="@+id/landmarkBinAdmin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:background="#F2EEEE	"
+
+            android:inputType="textPersonName"
+            android:text=""
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="City"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:layout_gravity="left"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="25dp"
+
+            />
+        <EditText
+            android:id="@+id/cityBinAdmin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:background="#F2EEEE	"
+
+            android:inputType="textPersonName"
+            android:textSize="30dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Selected Load type"
+            android:textSize="20dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            />
+        <Spinner
+            android:id="@+id/spnupd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            style="@style/TextAppearance.AppCompat.Large"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cycle period"
+            android:textSize="20dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            />
+
+        <Spinner
+            android:id="@+id/spinnercycleperoid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"/>
+
+        <EditText
+            android:id="@+id/et_driverstatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="status of work"
+            android:background="#F2EEEE	"
+
+
+            android:textSize="30dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            >
+            <Button
+                android:id="@+id/btnSaveBinAdmin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#7FFF00	"
+                android:layout_marginRight="50dp"
+                android:layout_marginLeft="75dp"
+                android:layout_marginTop="20dp"
+                android:text="Update"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                />
+
+            <Button
+                android:id="@+id/btndeletebin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Delete"
+                android:layout_marginTop="20dp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:background="#DC143C"
+                ></Button>
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Source location"
+            android:textSize="20dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            />
+
+
+        <EditText
+            android:id="@+id/driversourceaddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:background="#F2EEEE	"
+            android:layout_marginTop="30dp"
+            android:hint="please enter your source location to get map"
+            android:inputType="textPersonName"
+
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/btnshowmapdriver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#7FFF00	"
+
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="20dp"
+            android:text="Show map"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            />
+    </LinearLayout>
+</ScrollView>
